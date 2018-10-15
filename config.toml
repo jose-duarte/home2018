@@ -1,8 +1,7 @@
 title = "Airspace for Hugo"
-baseURL = "https://www.example.com"
+baseURL = https://new-homepage-2018.netlify.com
 languageCode = "en-us"
 theme = "airspace-hugo"
-baseurl="https://new-homepage-2018.netlify.com/"
 
 [menu]
 
