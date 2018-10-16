@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  name: github
+  repo: vjfader/home2018 # Path to your Github repository
 
 publish_mode: editorial_workflow
 
@@ -52,7 +52,7 @@ collections:
         widget: "select"
         default: "top"
         options: ["left", "top", "right"]
-        
+
       - label: "Thumbnail Image"
         name: "thumbnailImage"
         required: false
@@ -63,7 +63,7 @@ collections:
         required: false
         widget: "image"
         default: "/images/uploads/cover-post.jpg"
-        
+
       - label: "Body"
         name: "body"
         widget: "markdown"
