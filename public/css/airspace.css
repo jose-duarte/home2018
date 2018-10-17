@@ -71,13 +71,13 @@ a:active {
   font-weight: 600;
 }
 .section-title p {
-  font-family: 'Volkhov', serif;
-  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+/*  font-style: italic; */
   color: #666;
 }
 
 .btn-main, .btn-transparent, .btn-small {
-    background: #655E7A;//655E7A
+    background: #655E7A;
     color: #fff;
     display: inline-block;
     font-size: 14px;
@@ -90,8 +90,8 @@ a:active {
 }
 
 .btn-main:hover, .btn-transparent:hover, .btn-small:hover {
-    background: #353240;//353240
-    color: #fff;//fff
+    background: #353240;
+    color: #fff;
 }
 
 /*--
@@ -152,7 +152,7 @@ header .navbar-brand img{
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #433350, #312365);
+  background: linear-gradient(to right, #433350, #312365);
   opacity: 0.5;
 }
 #slider .block {
@@ -160,7 +160,7 @@ header .navbar-brand img{
 }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 10px;
@@ -184,6 +184,8 @@ header .navbar-brand img{
   padding-top: 35px;
   line-height: 27px;
   margin: 0;
+  font-family: 'Open+Sans', sans-serif;
+  font-weight: 400;
 }
 #intro .block p {
   color: #7B7B7B;
@@ -249,7 +251,7 @@ header .navbar-brand img{
   width: 100%;
   height: 100%;
   background: #1d192c;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 #call-to-action h2 {
   padding-bottom: 20px;
@@ -432,8 +434,8 @@ header .navbar-brand img{
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, #928dab, #1f1c2c 70%);
-  opacity: 0.8;
+  background: linear-gradient(to bottom, #928dab, #1f1c2c);
+  opacity: 0.7;
 }
 #global-header .block {
   color: #E3E3E4;
@@ -665,7 +667,7 @@ header .navbar-brand img{
 	slider-contact Start
 --*/
 #slider-contact {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/fader-stage-design-in-studio-806x300.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -680,7 +682,7 @@ header .navbar-brand img{
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #928dab, #1f1c2c 70%);
+  background: linear-gradient(to left, #5A647F, #1f1c2c);
   opacity: 0.8;
 }
 #slider-contact .block {
@@ -708,6 +710,7 @@ header .navbar-brand img{
 	contact-form Start
 --*/
 #contact-form {
+  background-color: #8493BA;
   padding-top: 70px;
   padding-bottom: 35px;
 }
@@ -808,6 +811,12 @@ header .navbar-brand img{
   padding: 40px 0px;
 }
 /* Blog */
+.section.blog.section {
+  background-color: #777;
+}
+.post {
+  background-color: #777;
+}
 .blog-post{
   margin-bottom: 50px;
 }

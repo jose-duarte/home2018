@@ -7,6 +7,10 @@ theme = "airspace-hugo"
 
   [[menu.header]]
     weight = 2
+    name = "About"
+    url = "/about"
+  [[menu.header]]
+    weight = 2
     name = "Work"
     url = "/work"
   [[menu.header]]
@@ -24,12 +28,12 @@ theme = "airspace-hugo"
 
   [[menu.footer]]
     weight = 1
-    name = "About us"
-    url = "#"
+    name = "About"
+    url = "/about"
   [[menu.footer]]
     weight = 2
-    name = "Contact us"
-    url = "#"
+    name = "Contact"
+    url = "/contact"
   [[menu.footer]]
     weight = 3
     name = "How it works"
@@ -40,8 +44,8 @@ theme = "airspace-hugo"
     url = "#"
   [[menu.footer]]
     weight = 5
-    name = "Terms"
-    url = "#"
+    name = "Contact"
+    url = "/contact"
 
 # The site's parameters
 [params]
@@ -57,13 +61,16 @@ theme = "airspace-hugo"
   [params.slider]
     enable = true
     title = "Visualising Dance Music"
-    subtitle = "We love the Web and the work we do.<br/> Create Amazing Stages Around The World! <br/><br/>↓"
+    subtitle = "A Festival is More than Meets the Eye<br/> Createing Amazing Experiences Around The World <br/><br/>↓"
 
   [params.wrapper]
     enable = true
     title = "Meet Fader"
-    italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-    paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+    italic = "James “Fader” Cui is a talented multi-media artist and VJ specializing in Stage Design, software development and Video Mapping."
+    paragraph = "Over the past decade, Fader has contributed to many big festivals such as Coachella, Burning Man, Insomniac, Fuji Rock, Mapping Festival, Backwoods and Intro Music Festival."
+  [params.wrapper.button]
+      caption = "Read More"
+      url = "#"
 
   [params.blog]
     enable = true
@@ -72,21 +79,21 @@ theme = "airspace-hugo"
 
   [params.feature]
     enable = true
-    title = "We believe in great ideas"
-    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
-    [params.feature.button]
-      caption = "View Works"
-      url = "#"
+    title = "Every show delivers a new message to the audience"
+    content = "The stage can be considered as a fine-art sculpture in the hands of an experienced the designer, Fader shapes his vision according to the type of event and audience. The stage can be modern or classic. Regardless of outdoor or indoor, the LED screens, projectors, lasers and lights become the building blocks to a masterpiece."
+  [params.feature.button]
+      caption = "View More"
+      url = "/work"
 
   [params.call]
     enable = true
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+    title = "Together, we will create most memorable show"
+    paragraph = "Every show take a team of people, with extensive planning and execution comes a great show that will stay in the audiences' memories for a very long time."
 
   [params.contact]
     enable = true
-    title = "Send a Message!"
-    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    title = "Get in Touch"
+    subtitle = "If you have an upcoming project or questions about my past work, feel free to write."
     [params.contact.form]
       name = "Your name"
       email = "Your email"
@@ -94,9 +101,9 @@ theme = "airspace-hugo"
       message = "Your message"
       button = "Send message"
     [params.contact.box]
-      title = "Where??"
-      address = "North Main Street, Brooklyn Australia"
-      email = "Email: contact@mail.com"
+      title = "Contact"
+      address = "Berlin, Germany"
+      email = "Email: vjfader@mail.com"
       phone = "Phone: +88 01672 506 744"
     [params.contact.gmaps]
-      title = "We Also Count in Google Maps"
+      title = "Where in the World?"

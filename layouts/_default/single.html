@@ -9,12 +9,12 @@
 
 	<div class="post">
 	  <!-- Wrapper Start -->
-	  <section class="section" style="border: 1px dotted #ddd;">
+	  <section class="section" style="border: 0px dotted #ddd;">
 	    <div class="container">
 	      <div class="row">
 	        <div>
 	          <div class="block">
-							{{ with .Params.thumbnailImage }}<img src="{{. | absURL }}" width="100%" alt="post-image"> {{ end }}
+							{{ with .Params.thumbnailImage }}<img src="{{. | absURL }}" width="100%" alig alt="post-image"> {{ end }}
 	            <h1>{{ .Params.title }}</h1>
 
 	            <div class="post-info-wrapper">

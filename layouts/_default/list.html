@@ -15,9 +15,11 @@
 				{{ range (.Paginator 6).Pages }}
 				<div class="col-md-6">
 					<article class="blog-post">
-						{{ with .Params.thumbnailImage }}
-						<img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb"> {{ end }}
-						<a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>
+
+						<a class="post-title" href="{{ .Permalink }}">{{ .Title }}
+							{{ with .Params.thumbnailImage }}
+							<img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb">{{ end }}
+						</a>
 						<p>
 							{{ .Summary }}
 						</p>

@@ -1,21 +1,21 @@
 enable: true
-title: Fun Facts About Us
+title: Experience Speaks For Itself
 paragraph: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+  Fader gained experience from countless music festivals and concert shows all over the world. A skilled VJ can take music performance to the next level, by introducing visual landscapes and stories to the viewer.
 
 numbers:
   - icon: ion-ios-chatboxes-outline
-    counter: 2000
-    text: Cups of Coffee
-  - icon: ion-ios-glasses-outline
-    counter: 2000
-    text: Cups of Coffee
+    counter: 4
+    text: Spoken Language
+  - icon: ion-ios-photos-outline
+    counter: 100
+    text: Live Shows
   - icon: ion-ios-compose-outline
-    counter: 2000
-    text: Cups of Coffee
-  - icon: ion-ios-timer-outline
-    counter: 2000
-    text: Cups of Coffee
+    counter: 16
+    text: Years of Experience
+  - icon: ion-plane
+    counter: 14
+    text: Countries Traveled
 
 people:
   - text: >

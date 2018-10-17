@@ -9,6 +9,10 @@
             <p>{{ .Site.Params.wrapper.italic }}</p>
           </div>
           <p>{{ .Site.Params.wrapper.paragraph }}</p>
+        </br>
+          {{ with .Site.Params.wrapper.button }}
+            <a href="{{ .url }}" class="btn btn-main">{{ .caption }}</a>
+          {{ end }}
         </div>
       </div><!-- .col-md-7 close -->
       <div class="col-md-5 col-sm-12">
