@@ -188,7 +188,7 @@ header .navbar-brand img{
   font-weight: 400;
 }
 #intro .block p {
-  color: #7B7B7B;
+  color: #DEEDED;
   padding-top: 20px;
 }
 #intro .block img {
@@ -200,34 +200,51 @@ header .navbar-brand img{
     color: #E0E3F7;
   margin-bottom: 0px;
 }
+
 #intro .section-title p {
   padding-top: 20px;
+  color: #DEEDED;
 }
+
 /*--
 	service Start
 --*/
 #service {
   text-align: center;
   padding: 90px 0;
+  background-color: #2A3442;
+
+}
+#service .section-title h2 {
+  color: #E0E3F7;
+  font-family: 'Open+Sans', sans-serif;
+  font-weight: 400;
+}
+#service .section-title p {
+  color: #E0E3F7;
 }
 #service .service-item {
   padding-bottom: 30px;
+
 }
 #service .service-item i {
   font-size: 60px;
-  color: #4A4656;
+  color: #999;#4A4656
 }
 #service .service-item h4 {
   padding-top: 20px;
   margin: 0;
-  color: #666;
+  color: #DEEDED;
+  font-family: 'Open+Sans', sans-serif;
+  font-weight: 400;
 }
 #service .service-item p {
-  color: #888;
+  color: #DEEDED;
   padding-top: 10px;
   margin: 0;
   font-size: 14px;
   line-height: 1.8;
+
 }
 /*--
 	call-to-action Start
@@ -313,6 +330,8 @@ header .navbar-brand img{
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
+  font-family: 'Open+Sans', sans-serif;
+  font-weight: 400;
 }
 #feature p {
   color: #fff;/*8d8f92*/
@@ -331,15 +350,20 @@ header .navbar-brand img{
 --*/
 #testimonial {
   padding: 100px 0;
+  background-color: #2A3442;
+  color: #E0E3F7;
 }
 #testimonial .block h2 {
   line-height: 27px;
-  color: #5C5C5C;
   padding-top: 110px;
+  font-family: 'Open+Sans', sans-serif;
+  font-weight: 400;
 }
 #testimonial .block p {
   padding-top: 50px;
-  color: #7B7B7B;
+}
+#testimonial .section-title.text-center p {
+  color: #DEEDED;
 }
 #testimonial .counter-box li {
   width: 50%;
@@ -349,13 +373,15 @@ header .navbar-brand img{
 }
 #testimonial .counter-box li i {
   font-size: 35px;
+  color: #DEEDED;
 }
 #testimonial .counter-box li h4 {
   font-size: 30px;
   font-weight: bold;
+  color: #999;
 }
 #testimonial .counter-box li span {
-  color: #555;
+  color: #DEEDED;
 }
 #testimonial .testimonial-carousel {
   text-align: center;
