@@ -70,7 +70,7 @@ theme = "airspace-hugo"
     paragraph = "Over the past decade, Fader has contributed to many big festivals such as Coachella, Burning Man, Insomniac, Fuji Rock, Mapping Festival, Backwoods and Intro Music Festival."
   [params.wrapper.button]
       caption = "Read More"
-      url = "#"
+      url = "/about"
 
   [params.blog]
     enable = true
