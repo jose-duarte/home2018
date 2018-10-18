@@ -15,7 +15,7 @@
 
 
 
-<title>Categories</title>
+<title>Darn... Page not found.</title>
 
 <meta name="generator" content="Hugo 0.49.2" />
 
@@ -47,7 +47,21 @@
 
 </head>
 <body>
+	<script>
+	    if('serviceWorker' in navigator) {
+	        navigator.serviceWorker
+	            .register('/sw.js', { scope: '/' })
+	            .then(function(registration) {
+	                console.log('Service Worker Registered');
+	            });
 
+	        navigator.serviceWorker
+	            .ready
+	            .then(function(registration) {
+	                console.log('Service Worker Ready');
+	            });
+	    }
+	</script>
 	
 <header>
 <div class="container">
@@ -95,83 +109,28 @@
 
 
 	
-<section id="global-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="block">
-                    <h1>Categories</h1>
-                    <p></p>
-                </div>
-            </div>
+		<main><p>You should look somewhere else.</p>
+</main>
+	
+
+	
+		
+
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Together, we will create most memorable show</h2>
+          <p>Every show take a team of people, with extensive planning and execution comes a great show that will stay in the audiences&#39; memories for a very long time.</p>
+          
         </div>
+      </div>
     </div>
+  </div>
 </section>
 
-
-	<section class="blog section">
-		<div class="container">
-			<div class="row">
-				
-				<div class="col-md-6">
-					<article class="blog-post">
-
-						<a class="post-title" href="https://new-homepage-2018.netlify.com/categories/lorem/">Lorem
-							
-						</a>
-						<p>
-							
-						</p>
-						<a href="https://new-homepage-2018.netlify.com/categories/lorem/" class="btn btn-main">Read More</a>
-					</article>
-				</div>
-				
-				<div class="col-md-6">
-					<article class="blog-post">
-
-						<a class="post-title" href="https://new-homepage-2018.netlify.com/categories/programming/">Programming
-							
-						</a>
-						<p>
-							
-						</p>
-						<a href="https://new-homepage-2018.netlify.com/categories/programming/" class="btn btn-main">Read More</a>
-					</article>
-				</div>
-				
-				<div class="col-md-6">
-					<article class="blog-post">
-
-						<a class="post-title" href="https://new-homepage-2018.netlify.com/categories/pseudo/">Pseudo
-							
-						</a>
-						<p>
-							
-						</p>
-						<a href="https://new-homepage-2018.netlify.com/categories/pseudo/" class="btn btn-main">Read More</a>
-					</article>
-				</div>
-				
-				<div class="col-md-6">
-					<article class="blog-post">
-
-						<a class="post-title" href="https://new-homepage-2018.netlify.com/categories/starting/">Starting
-							
-						</a>
-						<p>
-							
-						</p>
-						<a href="https://new-homepage-2018.netlify.com/categories/starting/" class="btn btn-main">Read More</a>
-					</article>
-				</div>
-				
-			</div>
-			<div class="col-12 text-center">
-				
-
-			</div>
-		</div>
-	</section>
+	
 
 	
 <footer>
@@ -201,6 +160,7 @@
     </div>
   </div>
 </footer>
+
 
 
 </body>

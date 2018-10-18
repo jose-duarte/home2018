@@ -22,6 +22,24 @@ show image!!</description>
     </item>
     
     <item>
+      <title>Darn... Page not found.</title>
+      <link>https://new-homepage-2018.netlify.com/404/</link>
+      <pubDate>Sun, 16 Oct 2016 19:28:41 +0200</pubDate>
+      
+      <guid>https://new-homepage-2018.netlify.com/404/</guid>
+      <description>You should look somewhere else.</description>
+    </item>
+    
+    <item>
+      <title>Oops, looks like you are offline.</title>
+      <link>https://new-homepage-2018.netlify.com/offline/</link>
+      <pubDate>Sun, 16 Oct 2016 19:28:41 +0200</pubDate>
+      
+      <guid>https://new-homepage-2018.netlify.com/offline/</guid>
+      <description>You should try to find some internet connection to browse here.</description>
+    </item>
+    
+    <item>
       <title>Migrate from Jekyll</title>
       <link>https://new-homepage-2018.netlify.com/blog/migrate-from-jekyll/</link>
       <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>

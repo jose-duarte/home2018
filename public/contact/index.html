@@ -4,6 +4,7 @@
 	<link rel="manifest" href="/manifest.json">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name ="theme-color" content="#232633">
 <meta name="description" content="Fader Portfolio Homepage">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -46,7 +47,21 @@
 
 </head>
 <body>
+	<script>
+	    if('serviceWorker' in navigator) {
+	        navigator.serviceWorker
+	            .register('/sw.js', { scope: '/' })
+	            .then(function(registration) {
+	                console.log('Service Worker Registered');
+	            });
 
+	        navigator.serviceWorker
+	            .ready
+	            .then(function(registration) {
+	                console.log('Service Worker Ready');
+	            });
+	    }
+	</script>
 	
 <header>
 <div class="container">
@@ -75,7 +90,7 @@
               
                 <li><a href="/about/">About</a></li>
               
-                <li><a href="/work/">Work</a></li>
+                <li><a href="/work/">Shows</a></li>
               
                 <li><a href="/blog/">Blog</a></li>
               
@@ -92,7 +107,7 @@
   </div>
 </header>
 
-	
+
 	
 		
 <section id="global-header">
@@ -230,6 +245,6 @@
 </footer>
 
 
-	
+
 </body>
 </html>
