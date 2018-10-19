@@ -7,6 +7,20 @@
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
+          <form method="POST">
+  <label>Comments:
+    <textarea name="comments"></textarea>
+  </label>
+</form>
+<form name="comments" method="POST" netlify-honeypot="hpfield" netlify>
+  <div class="hpot">
+    <label>Leave this field empty: <input name="hpfield"></label>
+  </div>
+  <label>Comments:
+    <textarea name="comments"></textarea>
+  </label>
+</form>
+
           <form>
             <div class="form-group">
               <input type="text" class="form-control" placeholder="{{ .form.name }}">

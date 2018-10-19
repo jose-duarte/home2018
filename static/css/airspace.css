@@ -893,11 +893,12 @@ header .navbar-brand img{
   padding: 40px 0px;
 }
 /* Blog */
-.section.blog.section {
-  background-color: #777;
-}
+
 .post {
-  background-color: #777;
+  background-color: #888;
+}
+.center-text {
+  background-color: #888;
 }
 .blog-post{
   margin-bottom: 50px;

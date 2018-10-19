@@ -2,7 +2,8 @@ title = "Fader Homepage 2018"
 baseURL = "https://new-homepage-2018.netlify.com/"
 languageCode = "en-us"
 theme = "airspace-hugo"
-
+enableRobotsTXT = true
+canonifyURLs = true
 [menu]
 
   [[menu.header]]
