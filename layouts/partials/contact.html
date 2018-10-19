@@ -4,50 +4,50 @@
 {{ with .Site.Params.contact }}
 <section id="contact-form">
   <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-sm-12">
+    <div class="row ">
+<!--      <div class="col-md-6 col-sm-12" > -->
         <div class="block">
+            <h2>Send a Message</h2>
+              <form name="contact" method="POST" netlify>
+                <div class="col-md-6 col-sm-12" >
+                  <div class="block">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" placeholder="{{ .form.name }}">
+                </div>
+                <div class="form-group">
+                  <input type="text" name="email" class="form-control" placeholder="{{ .form.email }}">
+                </div>
+                <div class="form-group">
+                  <input type="text" name="subject" class="form-control" placeholder="{{ .form.subject }}">
+                </div>
+                </div>
+                </div>
+              <div class="col-md-6 col-sm-12" >
+                <div class="block">
+                <div class="form-group-2">
+                  <textarea class="form-control" name="message" rows="3" placeholder="{{ .form.message }}"></textarea>
+                </div>
 
-          <form name="contact" method="POST" netlify>
-            <div class="form-group">
-              <input type="text" name="name" class="form-control" placeholder="{{ .form.name }}">
-            </div>
-            <div class="form-group">
-              <input type="text" name="email" class="form-control" placeholder="{{ .form.email }}">
-            </div>
-            <div class="form-group">
-              <input type="text" name="subject" class="form-control" placeholder="{{ .form.subject }}">
-            </div>
-            <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="{{ .form.message }}"></textarea>
-            </div>
             <div data-netlify-recaptcha></div>
             <button type="submit">Send</button>
+          </div>
+          </div>
           </form>
         </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form>
-            <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="{{ .form.message }}"></textarea>
-            </div>
-            <button class="btn btn-default" type="submit">{{ .form.button }}</button>
-          </form>
+<!--      </div> -->
         </div>
-      </div>
-    </div>
+
     <div id="contact-box" class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-
           <h2>{{ .box.title }}</h2>
           <ul class="address-block">
             <li>
               <i class="fa fa-map-marker"></i>{{ .box.address }}
             </li>
             <li>
-              <i class="fa fa-envelope-o"></i>{{ .box.email }}
+              <i class="fa fa-envelope-o"></i> <!-- {{ .box.email }} -->
+              Email: <a href="mailto:webmaster@example.com">vjfader@gmail.com</a>
             </li>
             <li>
               <i class="fa fa-phone"></i>{{ .box.phone }}
@@ -70,12 +70,13 @@
         <div class="block">
           <h2>{{ .title }}</h2>
             <div class="google-map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1128.6291614402467!2d13.412503792248087!3d52.52133181196366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e1f44edbc99%3A0xf189e9ae271d1818!2sWorld+Time+Clock!5e0!3m2!1sen!2sde!4v1539795276962" width="555" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1128.6291614402467!2d13.412503792248087!3d52.52133181196366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e1f44edbc99%3A0xf189e9ae271d1818!2sWorld+Time+Clock!5e0!3m2!1sen!2sde!4v1539795276962" width="555" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
         {{ end }}
       </div>
     </div>
   </div>
+</div>
 </section>
 {{ end }}
