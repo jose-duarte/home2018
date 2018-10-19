@@ -6,6 +6,8 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 canonifyURLs = true
+laxHtmlBlocks = true
+
 [menu]
 
   [[menu.header]]
@@ -69,8 +71,8 @@ canonifyURLs = true
   [params.wrapper]
     enable = true
     title = "Meet Fader"
-    italic = "James “Fader” Cui is a talented multi-media artist and VJ specializing in Stage Design, software development and Video Mapping."
-    paragraph = "Over the past decade, Fader has contributed to many big festivals such as [Coachella](//google.com), Burning Man, Insomniac, Fuji Rock, Mapping Festival, Backwoods and Intro Music Festival."
+    italic = "James “Fader” Cui <a href=\"http://html5up.net\">HTML5 UP</a> {{< myshortcode >}}<p>Hello <strong>World!</strong></p>{{< /myshortcode >}} is a talented multi-media artist and VJ specializing in Stage Design, software development and Video Mapping."
+    paragraph = "Over the past decade, Fader has contributed to many big festivals such as [Coachella](https://google.com), Burning Man, Insomniac, Fuji Rock, Mapping Festival, Backwoods and Intro Music Festival."
   [params.wrapper.button]
       caption = "Read More"
       url = "/about"
@@ -107,6 +109,6 @@ canonifyURLs = true
       title = "Contact"
       address = "Berlin, Germany"
       email = "Email: vjfader@mail.com"
-      phone = "Phone: +88 01672 506 744"
+      phone = "Phone: +49 17680551258‬"
     [params.contact.gmaps]
       title = "Where in the World?"
