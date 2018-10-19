@@ -7,5 +7,5 @@ thumbnailImage: /img/uploads/14066278_10153780603916190_7640131799787929077_o.jp
 coverImage: /img/uploads/14066278_10153780603916190_7640131799787929077_o.jpg
 ---
 some text!
-
+{{< gallery dir="/img/" />}} {{< load-photoswipe >}}
 show image!!
