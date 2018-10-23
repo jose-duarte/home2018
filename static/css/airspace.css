@@ -177,14 +177,14 @@ header .navbar-brand img{
 	Global-slider Start
 --*/
 #global-header {
-  background: url("../img/fader-stage-design-in-studio-806x300.jpg") no-repeat;
+  background: url("../img/fader-stage-design-in-studio-1.jpg") no-repeat;
   background-size: cover;
   /*--
   padding-top: 150px;
   padding-bottom: 107px;
   --*/
-  background-position: 50% 50%;
-  padding: 200px 0 200px 0;
+  background-position: 50% 70%;
+  padding: 300px 100px 300px 0px;
 
   position: relative;
   background-attachment: fixed;
@@ -199,7 +199,7 @@ header .navbar-brand img{
   width: 100%;
   height: 100%;
   background: linear-gradient(to bottom, #433350, #312365);
-  opacity: 0.4;
+  opacity: 0.7;
 }
 #global-header .block {
   color: #E3E3E4;
@@ -208,8 +208,9 @@ header .navbar-brand img{
   text-align: center;
 }
 #global-header .block h1 {
-  font-weight: 100;
-  font-size: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 45;
+  font-weight: 300;
   letter-spacing: 6px;
   padding-bottom: 15px;
   margin-top: 0;
@@ -253,7 +254,55 @@ header .navbar-brand img{
   padding-top: 20px;
   color: #DEEDED;
 }
+/*--
+	Slider-about Start
+--*/
+#slider-about {
+  background: url("../img/vjfader-Hifana3D_Tokyo-3-large.jpg") no-repeat;
+  background-size: cover;
+  /*--
+  padding-top: 150px;
+  padding-bottom: 107px;
+  --*/
+  background-position: 50% 70%;
+  padding: 300px 100px 300px 0px;
 
+  position: relative;
+  background-attachment: fixed;
+}
+#slider-about:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #433350, #312365);
+  opacity: 0.5;
+}
+#slider-about .block {
+  color: #E3E3E4;
+  margin: 0 auto;
+  padding-left: 90px;
+  text-align: center;
+}
+#slider-about .block h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+#slider-about .block p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
 /*--
 	service Start
 --*/
@@ -499,8 +548,8 @@ header .navbar-brand img{
   padding-top: 150px;
   padding-bottom: 107px;
   --*/
-  background-position: 50% 50%;
-  padding: 200px 0 200px 0;
+  background-position: 50% 70%;
+  padding: 300px 100px 300px 0px;
 
   position: relative;
   background-attachment: fixed;
@@ -524,8 +573,10 @@ header .navbar-brand img{
   text-align: center;
 }
 #slider-work .block h1 {
-  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   font-size: 45px;
+
   letter-spacing: 6px;
   padding-bottom: 15px;
   margin-top: 0;
@@ -542,7 +593,7 @@ header .navbar-brand img{
 --*/
 #portfolio-work {
   overflow: hidden;
-  padding: 80px 0;
+  padding: 0px 0;
     background-color: #232633;
 }
 #portfolio-work .block .portfolio-menu {
@@ -774,7 +825,7 @@ header .navbar-brand img{
 }
 #slider-contact .block h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 6px;

@@ -1,6 +1,4 @@
 +++
-title = "Shows!"
-id = "work"
+title = "Portfolio"
+id = "work-page"
 +++
-{{< gallery dir="/img/" />}} {{< load-photoswipe >}}
-some text here

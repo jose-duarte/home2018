@@ -16,7 +16,7 @@ laxHtmlBlocks = true
     url = "/about"
   [[menu.header]]
     weight = 2
-    name = "Shows"
+    name = "Portfolio"
     url = "/work"
   [[menu.header]]
     weight = 3
@@ -71,8 +71,8 @@ laxHtmlBlocks = true
   [params.wrapper]
     enable = true
     title = "Meet Fader"
-    italic = "James “Fader” Cui <a href=\"http://html5up.net\">HTML5 UP</a> {{< myshortcode >}}<p>Hello <strong>World!</strong></p>{{< /myshortcode >}} is a talented multi-media artist and VJ specializing in Stage Design, software development and Video Mapping."
-    paragraph = "Over the past decade, Fader has contributed to many big festivals such as [Coachella](https://google.com), Burning Man, Insomniac, Fuji Rock, Mapping Festival, Backwoods and Intro Music Festival."
+    italic = "James (Fader) Cui is a talented multi-media artist and VJ specializing in Stage Design, software development and Video Mapping. <br><br>Over the past decade, Fader has contributed to many big festivals such as Coachella, Burning Man, Insomniac, Fuji Rock, Mapping Festival, Backwoods and Intro Music Festival."
+    paragraph = "After a degree in Illustration from the Art Center College of Design (USA), he continued to explore programming code for his audio-video performances. In 2015, he received the App Art Award from ZKM for [EDMT](https://goo.gl/GqTFRM), an app that allows  you to generate graphics and EDM inspired sounds with your phone or tablet. <br><br> In 2004, he founded [Neuromixer](https://neuromixer.com/) to release AVmixer, a line of VJ software for live performances. In 2017 he established [AVloops](http://www.avloops.com), a video content marketplace platform for VJ related animations and loops. <br><br>At the moment, while busy with the role of CEO, he continues to freelance as a VJ and stage designer to share with people his passion for audiovisual. Additionally, he’s been teaching video mapping, Processing and Unity 3D to like-minded artists."
   [params.wrapper.button]
       caption = "Read More"
       url = "/about"

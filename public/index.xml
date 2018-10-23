@@ -18,7 +18,12 @@
       
       <guid>https://new-homepage-2018.netlify.com/blog/testblog1/</guid>
       <description>some text!
-show image!!</description>
+   Steve Francia      1359007 bigthumbnail
+      Fader profile02 700
+      V j fader backwoods2015 37 1 1140x642
+      V j fader backwoods2015 37 1
+      V j fader backwoods2015 4 1140x642
+      V j fader existdance2015 echinodome 11 1800 458x247</description>
     </item>
     
     <item>
@@ -36,7 +41,7 @@ show image!!</description>
       <pubDate>Sun, 16 Oct 2016 19:28:41 +0200</pubDate>
       
       <guid>https://new-homepage-2018.netlify.com/offline/</guid>
-      <description>You should try to find some internet connection to browse here.</description>
+      <description>You should check your internet connection.</description>
     </item>
     
     <item>
@@ -95,6 +100,15 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
+      <title>About</title>
+      <link>https://new-homepage-2018.netlify.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://new-homepage-2018.netlify.com/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://new-homepage-2018.netlify.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -104,29 +118,20 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
+      <title>Portfolio</title>
+      <link>https://new-homepage-2018.netlify.com/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://new-homepage-2018.netlify.com/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Service</title>
       <link>https://new-homepage-2018.netlify.com/service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://new-homepage-2018.netlify.com/service/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Testimonial</title>
-      <link>https://new-homepage-2018.netlify.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://new-homepage-2018.netlify.com/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Work</title>
-      <link>https://new-homepage-2018.netlify.com/work/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://new-homepage-2018.netlify.com/work/</guid>
       <description></description>
     </item>
     

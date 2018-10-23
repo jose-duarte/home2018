@@ -5,4 +5,4 @@ title = "Oops, looks like you are offline."
 type = "offline"
 +++
 
-You should try to find some internet connection to browse here.
+You should check your internet connection.

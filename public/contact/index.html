@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="manifest" href="/manifest.json">
+	<link rel="manifest" href="https://new-homepage-2018.netlify.com/manifest.json">
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name ="theme-color" content="#232633">
@@ -63,6 +63,33 @@
 	    }
 	</script>
 	
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https://new-homepage-2018.netlify.com/"
+    },
+    "articleSection" : "",
+    "name" : "Contact",
+    "headline" : "Contact",
+    "description" : "",
+    "inLanguage" : "en-US",
+    "author" : "",
+    "creator" : "",
+    "publisher": "",
+    "accountablePerson" : "",
+    "copyrightHolder" : "",
+    "copyrightYear" : "0001",
+    "datePublished": "0001-01-01 00:00:00 &#43;0000 UTC",
+    "dateModified" : "0001-01-01 00:00:00 &#43;0000 UTC",
+    "url" : "https://new-homepage-2018.netlify.com/contact/",
+    "wordCount" : "0",
+    "keywords" : [ "Blog" ]
+}
+</script>
+
 <header>
 <div class="container">
   <div class="row">
@@ -88,15 +115,15 @@
 
                 <li><a href="https://new-homepage-2018.netlify.com/"></a></li>
               
-                <li><a href="/about/">About</a></li>
+                <li><a href="https://new-homepage-2018.netlify.com/about/">About</a></li>
               
-                <li><a href="/shows/">Shows</a></li>
+                <li><a href="https://new-homepage-2018.netlify.com/work/">Portfolio</a></li>
               
-                <li><a href="/blog/">Blog</a></li>
+                <li><a href="https://new-homepage-2018.netlify.com/blog/">Blog</a></li>
               
-                <li><a href="/service/">Service</a></li>
+                <li><a href="https://new-homepage-2018.netlify.com/service/">Service</a></li>
               
-                <li><a href="/contact/">Contact</a></li>
+                <li><a href="https://new-homepage-2018.netlify.com/contact/">Contact</a></li>
               
               </ul>
             </div>
@@ -128,54 +155,61 @@
 
 <section id="contact-form">
   <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-sm-12">
+    <div class="row ">
+
         <div class="block">
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your name">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your email">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your subject">
-            </div>
+              <form name="contact" method="POST" netlify>
+
+                <div class="col-md-6 col-sm-12" >
+                  <div class="block">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                  <input type="text" name="email" class="form-control" placeholder="Your email">
+                </div>
+                <div class="form-group">
+                  <input type="text" name="subject" class="form-control" placeholder="Your subject">
+                </div>
+                </div>
+                </div>
+              <div class="col-md-6 col-sm-12" >
+                <div class="block">
+                <div class="form-group-2">
+                  <textarea class="form-control" name="message" rows="3" placeholder="Your message"></textarea>
+                </div>
+            <button type="submit">Send Message</button><br></br>
+            <div data-netlify-recaptcha></div>
+          </div>
+          </div>
           </form>
         </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form>
-            <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="Your message"></textarea>
-            </div>
-            <button class="btn btn-default" type="submit">Send message</button>
-          </form>
+
         </div>
-      </div>
-    </div>
+
     <div id="contact-box" class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-
           <h2>Contact</h2>
           <ul class="address-block">
             <li>
               <i class="fa fa-map-marker"></i>Berlin, Germany
             </li>
             <li>
-              <i class="fa fa-envelope-o"></i>Email: vjfader@mail.com
+              <i class="fa fa-envelope-o"></i> 
+              Email: <a href="mailto:webmaster@example.com">vjfader@gmail.com</a>
             </li>
             <li>
-              <i class="fa fa-phone"></i>Phone: &#43;88 01672 506 744
+              <i class="fa fa-phone"></i>Phone: &#43;49 17680551258‬
             </li>
           </ul>
           <ul class="social-icons">
           
-          <a href="https://www.facebook.com/vjfader/"><i class="fa fa-facebook"></i></a>
-          <a href="https://www.instagram.com/vjfader/"><i class="fa fa-instagram"></i></a>
-          <a href="https://plus.google.com/+vjfader"><i class="fa fa-google-plus"></i></a>
+          <a style="padding-right:20px;" href="https://www.facebook.com/vjfader/"><i class="fa fa-facebook"></i></a>
+<a style="padding-right:20px;" href="https://www.instagram.com/vjfader/"><i class="fa fa-instagram"></i></a>
+<a style="padding-right:20px;" href="https://vimeo.com/vjfader"><i class="fa fa-vimeo-square"></i></a>
+<a style="padding-right:20px;" href="https://www.youtube.com/channel/UCryBiC5nv4rDHtxpiFhnUeA"><i class="fa fa-youtube-square"></i></a>
+
           </ul>
         </div>
       </div>
@@ -184,13 +218,14 @@
         <div class="block">
           <h2>Where in the World?</h2>
             <div class="google-map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1128.6291614402467!2d13.412503792248087!3d52.52133181196366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e1f44edbc99%3A0xf189e9ae271d1818!2sWorld+Time+Clock!5e0!3m2!1sen!2sde!4v1539795276962" width="555" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1128.6291614402467!2d13.412503792248087!3d52.52133181196366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e1f44edbc99%3A0xf189e9ae271d1818!2sWorld+Time+Clock!5e0!3m2!1sen!2sde!4v1539795276962" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
         
       </div>
     </div>
   </div>
+</div>
 </section>
 
 
@@ -223,22 +258,24 @@
         <div class="footer-manu">
           <ul>
             
-            <li><a href="/about">About</a></li>
+            <li><a href="https://new-homepage-2018.netlify.com/about">About</a></li>
             
             <li><a href="#">How it works</a></li>
             
             <li><a href="#">Blog</a></li>
             
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="https://new-homepage-2018.netlify.com/contact">Contact</a></li>
             
           </ul>
         </div>
         <div>
-        <a style="padding-right:20px;" href="https://www.facebook.com/vjfader/"><i class="fa fa-facebook"></i></a>
-        <a style="padding-right:20px;" href="https://www.instagram.com/vjfader/"><i class="fa fa-instagram"></i></a>
-        <a href="https://plus.google.com/+vjfader"><i class="fa fa-google-plus"></i></a>
+          <a style="padding-right:20px;" href="https://www.facebook.com/vjfader/"><i class="fa fa-facebook"></i></a>
+<a style="padding-right:20px;" href="https://www.instagram.com/vjfader/"><i class="fa fa-instagram"></i></a>
+<a style="padding-right:20px;" href="https://vimeo.com/vjfader"><i class="fa fa-vimeo-square"></i></a>
+<a style="padding-right:20px;" href="https://www.youtube.com/channel/UCryBiC5nv4rDHtxpiFhnUeA"><i class="fa fa-youtube-square"></i></a>
+
         </div>
-        <p>Copyright &copy; Design &amp; Developed by Themefisher. All rights reserved.</p>
+        <p>Copyright &copy; Fader 2018. All rights reserved.</p>
       </div>
     </div>
   </div>

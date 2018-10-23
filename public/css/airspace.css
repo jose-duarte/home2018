@@ -177,14 +177,14 @@ header .navbar-brand img{
 	Global-slider Start
 --*/
 #global-header {
-  background: url("../img/VJFader-IntroShangHai2016-mainstage3-800x403.jpg") no-repeat;
+  background: url("../img/fader-stage-design-in-studio-1.jpg") no-repeat;
   background-size: cover;
   /*--
   padding-top: 150px;
   padding-bottom: 107px;
   --*/
-  background-position: 50% 50%;
-  padding: 200px 0 200px 0;
+  background-position: 50% 70%;
+  padding: 300px 100px 300px 0px;
 
   position: relative;
   background-attachment: fixed;
@@ -199,7 +199,7 @@ header .navbar-brand img{
   width: 100%;
   height: 100%;
   background: linear-gradient(to bottom, #433350, #312365);
-  opacity: 0.4;
+  opacity: 0.7;
 }
 #global-header .block {
   color: #E3E3E4;
@@ -208,8 +208,9 @@ header .navbar-brand img{
   text-align: center;
 }
 #global-header .block h1 {
-  font-weight: 100;
-  font-size: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 45;
+  font-weight: 300;
   letter-spacing: 6px;
   padding-bottom: 15px;
   margin-top: 0;
@@ -253,7 +254,55 @@ header .navbar-brand img{
   padding-top: 20px;
   color: #DEEDED;
 }
+/*--
+	Slider-about Start
+--*/
+#slider-about {
+  background: url("../img/vjfader-Hifana3D_Tokyo-3-large.jpg") no-repeat;
+  background-size: cover;
+  /*--
+  padding-top: 150px;
+  padding-bottom: 107px;
+  --*/
+  background-position: 50% 70%;
+  padding: 300px 100px 300px 0px;
 
+  position: relative;
+  background-attachment: fixed;
+}
+#slider-about:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #433350, #312365);
+  opacity: 0.5;
+}
+#slider-about .block {
+  color: #E3E3E4;
+  margin: 0 auto;
+  padding-left: 90px;
+  text-align: center;
+}
+#slider-about .block h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+#slider-about .block p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
 /*--
 	service Start
 --*/
@@ -481,6 +530,7 @@ header .navbar-brand img{
 #clients-logo-section {
   padding-top: 30px;
   padding-bottom: 75px;
+  background-color: #232633;
 }
 #clients-logo-section .clients-logo-img {
   padding: 0px 50px;
@@ -492,14 +542,14 @@ header .navbar-brand img{
 	Slider-work Start
 --*/
 #slider-work {
-  background: url("../img/VJFader-IntroShangHai2016-mainstage3-800x403.jpg") no-repeat;
+  background: url("../img/VJFader-IntroShangHai2016-mainstage1-800x440.jpg") no-repeat;
   background-size: cover;
   /*--
   padding-top: 150px;
   padding-bottom: 107px;
   --*/
-  background-position: 50% 50%;
-  padding: 200px 0 200px 0;
+  background-position: 50% 70%;
+  padding: 300px 100px 300px 0px;
 
   position: relative;
   background-attachment: fixed;
@@ -523,8 +573,10 @@ header .navbar-brand img{
   text-align: center;
 }
 #slider-work .block h1 {
-  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   font-size: 45px;
+
   letter-spacing: 6px;
   padding-bottom: 15px;
   margin-top: 0;
@@ -541,7 +593,8 @@ header .navbar-brand img{
 --*/
 #portfolio-work {
   overflow: hidden;
-  padding: 80px 0;
+  padding: 0px 0;
+    background-color: #232633;
 }
 #portfolio-work .block .portfolio-menu {
   padding-bottom: 30px;
@@ -570,9 +623,9 @@ header .navbar-brand img{
 #portfolio-work .block .portfolio-menu ul .active:before {
   content: "\f0d7";
   position: absolute;
-  font-family: 'FontAwesome';
+  font-family: 'Roboto';
   bottom: -18px;
-  font-size: 30px;
+  font-size: 24px;
   width: 20px;
   left: 0px;
   right: 0px;
@@ -589,7 +642,7 @@ header .navbar-brand img{
 #portfolio-work .block .portfolio-menu ul li:hover:before {
   content: "\f0d7";
   position: absolute;
-  font-family: 'FontAwesome';
+  font-family: 'Roboto';
   bottom: -18px;
   font-size: 30px;
   width: 20px;
@@ -607,9 +660,9 @@ header .navbar-brand img{
 }
 #portfolio-work .block .portfolio-contant ul li {
   float: left;
-  width: 32.22%;
+  width: 30%;
   overflow: hidden;
-  margin: 6px;
+  margin: 5px;
   position: relative;
 }
 #portfolio-work .block .portfolio-contant ul li:hover .overly {
@@ -628,16 +681,17 @@ header .navbar-brand img{
   color: #fff;
 }
 #portfolio-work .block .portfolio-contant ul li a h2 {
-  font-size: 22px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 #portfolio-work .block .portfolio-contant ul li a p {
-  font-size: 15px;
+  font-size: 12px;
+  line-height: 20px;
 }
 #portfolio-work .block .portfolio-contant ul li a span {
   font-style: italic;
-  font-size: 13px;
+  font-size: 12px;
   color: #655E7A;
 }
 #portfolio-work .block .portfolio-contant ul img {
@@ -650,7 +704,7 @@ header .navbar-brand img{
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.5);
   opacity: 0;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
@@ -660,7 +714,7 @@ header .navbar-brand img{
 #portfolio-work .block .portfolio-contant .position-center {
   position: absolute;
   top: 50%;
-  left: 10%;
+  left: 50%;
   -webkit-transform: translate(0%, 50%);
   -moz-transform: translate(0%, 50%);
   -ms-transform: translate(0%, 50%);
@@ -771,7 +825,7 @@ header .navbar-brand img{
 }
 #slider-contact .block h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 6px;
@@ -890,11 +944,15 @@ header .navbar-brand img{
   padding: 40px 0px;
 }
 /* Blog */
-.section.blog.section {
-  background-color: #777;
-}
+
 .post {
-  background-color: #777;
+  background-color: #888;
+}
+.blog {
+  background-color: #888;
+}
+.center-text {
+  background-color: #888;
 }
 .blog-post{
   margin-bottom: 50px;
@@ -939,7 +997,7 @@ header .navbar-brand img{
 	footer Start
 --*/
 footer {
-  background: #232633;/*f5f5f5*/
+  background: #191919;/*f5f5f5*/
   text-align: center;
   padding-top: 48px;
   padding-bottom: 55px;
