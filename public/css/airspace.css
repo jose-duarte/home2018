@@ -22,6 +22,10 @@
 /*--
 	Common Css
 --*/
+.small-gutter > [class*='col-'] {
+    padding-right:5;
+    padding-left:5;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -136,7 +140,7 @@ header .navbar-brand img{
 	Slider Start
 --*/
 #slider {
-  background: url("../img/faderhome-slider-bg.jpg") no-repeat;
+  background: url("../img/faderhome-slider-bg2.jpg") no-repeat;
   background-size: cover;
   background-attachment:  fixed;
   background-position: 10% 0%;
@@ -229,6 +233,9 @@ header .navbar-brand img{
   background: #232633;/*fff*/
   padding: 100px 0;
 }
+#intro .block {
+  padding-left: 0px;
+}
 #intro .block h2 {
   padding-top: 35px;
   line-height: 27px;
@@ -242,8 +249,9 @@ header .navbar-brand img{
 }
 #intro .block img {
   padding-left: 0px;
+
   width: 100%;
-  border-radius: 2%;
+  border-radius: 0%;
 }
 #intro .section-title {
     color: #E0E3F7;
@@ -308,9 +316,8 @@ header .navbar-brand img{
 --*/
 #service {
   text-align: center;
-  padding: 90px 0;
+  padding-top: 100px;
   background-color: #232633;
-
 }
 #service .section-title h2 {
   color: #E0E3F7;
@@ -408,7 +415,9 @@ header .navbar-brand img{
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  padding: 100px 0;
+  /* padding: 100px 200px; */
+  padding-top: 100px;
+  padding-bottom: 140px;
 }
 #feature:before {
   content: "";
@@ -435,7 +444,7 @@ header .navbar-brand img{
   margin-bottom: 20px;
   background-color: #202329;
   padding: 20px 20px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 #feature .btn-view-works {
   background: #655E7A;

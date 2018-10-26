@@ -1,6 +1,5 @@
 <!-- Wrapper Start -->
 {{ partial "slider-about.html" . }}
-{{ partial "load-photoswipe.html" . }}
 <section id="intro">
   <div class="container">
     <div class="row">
@@ -26,5 +25,10 @@
         </div>
       </div><!-- .col-md-5 close -->
 
+
+  </div>
+  <div class="block">
+    {{ partial "load-photoswipe.html" . }}
+    {{ partial "gallery1.html" . }}
   </div>
 </section>
