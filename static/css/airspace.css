@@ -22,10 +22,7 @@
 /*--
 	Common Css
 --*/
-.small-gutter > [class*='col-'] {
-    padding-right:5;
-    padding-left:5;
-}
+
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -261,6 +258,11 @@ header .navbar-brand img{
 #intro .section-title p {
   padding-top: 20px;
   color: #DEEDED;
+}
+
+#intro .col-sm-4 {
+  padding:5px;
+
 }
 /*--
 	Slider-about Start

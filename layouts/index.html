@@ -40,7 +40,7 @@
 		{{ partial "service.html" . }}
 	{{ end }}
 
-
+  {{ partial "load-photoswipe.html" . }}
 	{{ partial "gallery1.html" . }}
 
 	{{ if and (isset .Site.Params "call") (.Site.Params.call.enable) }}
@@ -53,6 +53,5 @@
 
 	{{ partial "footer.html" . }}
 
-	{{ partial "load-photoswipe.html" . }}
 </body>
 </html>
