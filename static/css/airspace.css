@@ -26,6 +26,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
+  background-color: #232633;
 }
 h1,
 h2,
@@ -318,7 +319,7 @@ header .navbar-brand img{
 --*/
 #service {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 0px;
   background-color: #232633;
 }
 #service .section-title h2 {
@@ -399,7 +400,7 @@ header .navbar-brand img{
 --*/
 #feature {
   background: url("../img/portfolio/VJFader-Backwoods2015-37-1-1140x642.jpg");
-  background-position: 50% 94px;
+  background-position: 50% 50%;
   width: 100%;
   display: block;
   position: relative;
@@ -407,7 +408,6 @@ header .navbar-brand img{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -420,7 +420,10 @@ header .navbar-brand img{
   /* padding: 100px 200px; */
   padding-top: 150px;
   padding-bottom: 200px;
+  margin-bottom: 100px;
+
 }
+
 #feature:before {
   content: "";
   position: absolute;
@@ -541,10 +544,14 @@ header .navbar-brand img{
 #clients-logo-section {
   padding-top: 30px;
   padding-bottom: 75px;
-  background-color: #232633;
 }
-#clients-logo-section .clients-logo-img {
-  padding: 0px 50px;
+
+#clients-logo-section .clients-logo-img{
+  padding: 0px 0px;
+
+  /* position: absolute; */
+   height: 50%;
+  vertical-align: middle;
 }
 /*---------------------------------------------
 					Work Start
@@ -553,7 +560,7 @@ header .navbar-brand img{
 	Slider-work Start
 --*/
 #slider-work {
-  background: url("../img/VJFader-IntroShangHai2016-mainstage1-800x440.jpg") no-repeat;
+  background: url("../img/portfolio/VJFader-IntroShangHai2016-mainstage2-800x450.jpg") no-repeat;
   background-size: cover;
   /*--
   padding-top: 150px;

@@ -14,8 +14,8 @@ content:
     text: >
       Real-time generative and pre-rendered visuals custom to your show
 
-  - icon: ion-easel
-    name: Workshop
+  - icon: ion-videocamera
+    name: Video Mapping
     text: >
       Giving in depth and intimate workshops on Unity 3D and Video Mapping techniques for artists
 
