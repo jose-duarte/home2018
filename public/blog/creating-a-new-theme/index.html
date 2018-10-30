@@ -12,6 +12,12 @@
 
 
 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+<link rel="icon" href="https://new-homepage-2018.netlify.com/img/appicons/fader-appicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="https://new-homepage-2018.netlify.com/img/appicons/fader-appicon-72.png" sizes="72x72" type="image/png">
+<link rel="icon" href="https://new-homepage-2018.netlify.com/img/appicons/fader-appicon-144.png" sizes="144x144" type="image/png">
+<link rel="icon" href="https://new-homepage-2018.netlify.com/img/appicons/fader-appicon-180.png" sizes="180x180" type="image/png">
+<link rel="icon" href="https://new-homepage-2018.netlify.com/img/appicons/fader-appicon-270.png" sizes="270x270" type="image/png">
 
 
 <title>Creating a new theme</title>
@@ -1246,8 +1252,8 @@ $ vi themes/zafta/layouts/_default/single.html
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>Together, we will create most memorable show</h2>
-          <p>Every show take a team of people, with extensive planning and execution comes a great show that will stay in the audiences&#39; memories for a very long time.</p>
+          <h2>Together, we will create the most memorable show!</h2>
+          <p>Every show take an entire team, with extensive planning and execution comes a great show that will stay in the audiences&#39; memories for a long long time.</p>
           
         </div>
       </div>
@@ -1287,7 +1293,23 @@ $ vi themes/zafta/layouts/_default/single.html
     </div>
   </div>
 </footer>
-    <script src="https://new-homepage-2018.netlify.com/js/load-photoswipe.js"></script>
+
+<script src="https://new-homepage-2018.netlify.com/js/load-photoswipe.js"></script>
+<script>
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('/sw.js', { scope: '/' })
+            .then(function(registration) {
+                console.log('Service Worker Registered');
+            });
+
+        navigator.serviceWorker
+            .ready
+            .then(function(registration) {
+                console.log('Service Worker Ready');
+            });
+    }
+</script>
 
 </body>
 </html>

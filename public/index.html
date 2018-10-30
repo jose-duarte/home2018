@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
 
 	<meta charset="utf-8">
@@ -13,6 +13,12 @@
 
 
 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+<link rel="icon" href="https://new-homepage-2018.netlify.com/img/appicons/fader-appicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="https://new-homepage-2018.netlify.com/img/appicons/fader-appicon-72.png" sizes="72x72" type="image/png">
+<link rel="icon" href="https://new-homepage-2018.netlify.com/img/appicons/fader-appicon-144.png" sizes="144x144" type="image/png">
+<link rel="icon" href="https://new-homepage-2018.netlify.com/img/appicons/fader-appicon-180.png" sizes="180x180" type="image/png">
+<link rel="icon" href="https://new-homepage-2018.netlify.com/img/appicons/fader-appicon-270.png" sizes="270x270" type="image/png">
 
 
 <title>Fader Homepage 2018</title>
@@ -49,21 +55,6 @@
 
 </head>
 <body>
-	<script>
-	    if('serviceWorker' in navigator) {
-	        navigator.serviceWorker
-	            .register('/sw.js', { scope: '/' })
-	            .then(function(registration) {
-	                console.log('Service Worker Registered');
-	            });
-
-	        navigator.serviceWorker
-	            .ready
-	            .then(function(registration) {
-	                console.log('Service Worker Ready');
-	            });
-	    }
-	</script>
 	
 <script type="application/ld+json">
 {
@@ -143,12 +134,13 @@
             <div class="col-md-10 col-md-offset-1">
                 <div class="block text-center">
                     <h1 class="animated fadeInUp text-uppercase">Visualising Dance Music</h1>
-                    <p class="animated fadeInUp">A Festival is More than Meets the Eye<br/> Createing Amazing Experiences Around The World <br/><br/>↓</p>
+                    <p class="animated fadeInUp">A Festival is More than Meets the Eye<br/> Createing Amazing Experiences Around The World <br/><br/><a href="#intro">↓↓</a></p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 	
 
 	
@@ -327,10 +319,10 @@
 		<div class="block">
 		<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 			<div class="img" style="background-image: url('https://new-homepage-2018.netlify.com//img//portfolio//VJFader-IntroShangHai2016-mainstage1-800x440.jpg');" >
-				<img itemprop="thumbnail" src="https://new-homepage-2018.netlify.com//img//portfolio//VJFader-IntroShangHai2016-mainstage1-800x440-thumb.jpg" alt="Backwoods 2015" />
+				<img itemprop="thumbnail" src="https://new-homepage-2018.netlify.com//img//portfolio//VJFader-IntroShangHai2016-mainstage1-800x440-thumb.jpg" alt="Intro 2016 ShangHai" />
 			</div>
 			<figcaption>
-				<p>Backwoods Festival 2018</p>
+				<p>Intro 2016 ShangHai</p>
 			</figcaption>
 			<a href="https://new-homepage-2018.netlify.com//img//portfolio//VJFader-IntroShangHai2016-mainstage1-800x440.jpg" itemprop="contentUrl"></a>
 		</figure>
@@ -415,8 +407,8 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>Together, we will create most memorable show</h2>
-          <p>Every show take a team of people, with extensive planning and execution comes a great show that will stay in the audiences&#39; memories for a very long time.</p>
+          <h2>Together, we will create the most memorable show!</h2>
+          <p>Every show take an entire team, with extensive planning and execution comes a great show that will stay in the audiences&#39; memories for a long long time.</p>
           
         </div>
       </div>
@@ -563,7 +555,23 @@
     </div>
   </div>
 </footer>
-    <script src="https://new-homepage-2018.netlify.com/js/load-photoswipe.js"></script>
+
+<script src="https://new-homepage-2018.netlify.com/js/load-photoswipe.js"></script>
+<script>
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('/sw.js', { scope: '/' })
+            .then(function(registration) {
+                console.log('Service Worker Registered');
+            });
+
+        navigator.serviceWorker
+            .ready
+            .then(function(registration) {
+                console.log('Service Worker Ready');
+            });
+    }
+</script>
 
 
 </body>

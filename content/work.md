@@ -1,4 +1,4 @@
 +++
-title = "Portfolio"
+title = "Stage Design"
 id = "work-page"
 +++
