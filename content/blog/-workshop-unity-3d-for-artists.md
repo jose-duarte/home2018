@@ -38,42 +38,47 @@ Unity 3D is one of most popular game engines (developer tool) available in the m
 <h3>Outline</h3>
 
 { Day 1 }
-– What is a game engine?
-– Why Unity versus other game engines (Unreal)?
-– Online resources
-– Unity Asset Store
-– Understanding the Unity software UI
-– Importing assets from the Web and Asset store
-– Constructing a scene with available assets
-– Managing your project
-– 3D objects, environments, material, lights, terrain…
-– Introducing Skybox
-– Post Processing Effects
+
+* What is a game engine?
+* Why Unity versus other game engines (Unreal)?
+* Online resources
+* Unity Asset Store
+* Understanding the Unity software UI
+* Importing assets from the Web and Asset store
+* Constructing a scene with available assets
+* Managing your project
+* 3D objects, environments, material, lights, terrain…
+* Introducing Skybox
+* Post Processing Effects
 
 { Day 2 }
-– Sample projects created in Unity
-– In class exercise
-– Scripting environments (Monoscript/Visual Studio)
-– Code VS. No Code
-– Learn simple programming in C#
-– Camera control
-– Keyboard and mouse input
-– Moving 3D objects
-– Unity Dynamics
+
+* Sample projects created in Unity
+* In class exercise
+* Scripting environments (Monoscript/Visual Studio)
+* Code VS. No Code
+* Learn simple programming in C#
+* Camera control
+* Keyboard and mouse input
+* Moving 3D objects
+* Unity Dynamics
 
 { Day 3 }
-– In class exercise
-– For Loop and If functions
-– Import/Export a package
-– Creating PreFabs
-– Cloning 3D objects
-– Scene optimization
+
+* In class exercise
+* For Loop and If functions
+* Import/Export a package
+* Creating PreFabs
+* Cloning 3D objects
+* Scene optimization
+* using a MIDI controller
 
 { Day 4 }
-– In class exercise
-– Collision detection
-– Instantiating objects
-– Switch between multiple scenes
-– Compiling your Unity desktop application
-– Animating using Unity Timeline
-– Conclusion
+
+* In class exercise
+* Collision detection
+* Instantiating objects
+* Switch between multiple scenes
+* Compiling your Unity desktop application
+* Animating using Unity Timeline
+* Conclusion
