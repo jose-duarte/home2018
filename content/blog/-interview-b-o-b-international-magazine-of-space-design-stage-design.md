@@ -17,11 +17,13 @@ keywords:
   - edm
   - festival
   - music festival
-autoThumbnailImage: true
-thumbnailImagePosition: left
-coverImage: /img/uploads/photo-11.09.17-11-16-41-small-600x800.jpg
+autoThumbnailImage: false
+thumbnailImagePosition: top
+thumbnailImage: /img/uploads/Photo-11.09.17-11-33-17-826x464.jpg
+coverImage: /img/uploads/Photo-11.09.17-11-33-17-826x464.jpg
 ---
-<a href="http://www.vjfader.com/PDF/[bob158]VJ%20Fader.pdf">Click here to download this interview PDF document.</a>
+I had the pleasure of giving an exclusive interview to the B.O.B. Interior Design Magazine in South Korea. In this interview I gave my insight
+into my stage design career and working process. You may <a href="/download/[bob158]VJ Fader-interview.pdf">click on this link</a> to view the full interview PDF document.
 
 <h3><em>Kim Sowon :</em> Could you please introduce yourself to our readers?</h3>
 <em>VJ Fader :</em> My Korean name is Choi Moonbong, my artist name is VJ Fader, my friends call me James. My family background is Korean Chinese. Last time when I visited South Korea was in 2011 for an artist residency called Gachang in the country side of Daegu. I have been living and studying in Los Angeles since I was a teenager. About 4 years ago I moved to Berlin where I call home. I studied in Illustration major at Art Center College of Design in Pasadena, USA. I was passionate about electronic music and had an interest in music videos and animation. After graduating in 2002 I started VJing at small clubs and parties. I’m also a self taught programmer and software developer working with Max/Msp/Jitter, Processing, TouchDesigner and Unity. In the past 5 years my professional career started involving stage designs.
@@ -30,7 +32,7 @@ coverImage: /img/uploads/photo-11.09.17-11-16-41-small-600x800.jpg
 <h3><em>Kim Sowon :</em> What attracts you the most to this eld?</h3>
 <em>VJ Fader :</em> I can honestly say I grew up as a MTV generation. When I was a kid, I was very much into watching music videos. It was a time when people were still buying CDs and record companies would spend millions to produce one music video. For me, with most VJs, we are passionate about music. Some people joke and say ‘VJs are the failed DJs’. Music is personal, everyone listen to different types of music, but when you have thousands of people coming together dancing to the same music, that’s special. Even today most of the times when you go see a big name DJ standing in front of a large screen playing on a stage, that's not very inspiring. I wanted to design my own stages to incorporate video, lighting and effects to create a memorable visual impact through form. When I design a stage, I’m creating a multimedia installation.
 
-<em><a href="http://www.vjfader.com/magazine-interview-of-vj-faders-stage-design-work/photo-11-09-17-11-33-17/" rel="attachment wp-att-5229"><img class="alignnone size-medium wp-image-5229" src="http://www.vjfader.com/wordpress/wp-content/uploads/2017/09/Photo-11.09.17-11-33-17-800x600.jpg" alt="bob magazine VJ Fader interview" width="800" height="600" /></a></em>
+{{< figure src="/img/uploads/Photo-11.09.17-12-27-29-800x600.jpg" title="BOB Magazine Interview" >}}{{< load-photoswipe >}}
 
 <h3><em>Kim Sowon :</em> Is there any stage which inspired as a VJ/stage designer?</h3>
 <em>VJ Fader :</em> There are so many good examples of great stage designs today. Tomorrowland Festival in Belgium has been the inspiration for many large music festivals around the world with it’s elaborate and larger than life mainstage. Looking back in 2013, Ultra Music Festival’s the mainstage design was very iconic. It combined the classic pyramid shape featuring an oversized Ultra (U) logo with latest LED and lighting technology. This use of the large U logo at the main stage is still being repeated at many Ultra events around the world. I’m a huge fan of Q-Dance events from Netherlands, the Dutch knows how to throw a party! Every one of their stage production is very detailed, often featuring a strong theme, for example an angry ape or a mystic animal. Although I’m not a huge fan of their Hardstyle music, but the production is just spectacular. I like to mention one more, the giant ‘Spider’ by Arcadia in England is a totally custom made stage featuring a hanging DJ booth, and surround sound setup. It animates with re‚ lighting‚ CO2 cannons‚ and performers. This stage is a great example of how amazing a custom stage can be creating an unique experience for the audience.
@@ -47,9 +49,7 @@ coverImage: /img/uploads/photo-11.09.17-11-16-41-small-600x800.jpg
 
 Interviewer/Editor:Kim Sowon
 
-<a href="http://www.vjfader.com/PDF/[bob158]VJ%20Fader.pdf">Click here to download this interview PDF document.</a>
-
-<em><a href="http://www.vjfader.com/magazine-interview-of-vj-faders-stage-design-work/photo-11-09-17-12-27-29/" rel="attachment wp-att-5240"><img class="alignnone size-medium wp-image-5240" src="http://www.vjfader.com/wordpress/wp-content/uploads/2017/09/Photo-11.09.17-12-27-29-800x600.jpg" alt="" width="800" height="600" /></a></em>
+{{< figure src="/img/uploads/Photo-11.09.17-12-27-48-800x600.jpg" title="BOB Magazine Interview" >}}
 
 <em>김소원 :</em> 자기 소개를 부탁한다.
 <em>VJ 페이더 :</em> 한국 이름은 최문봉이고, VJ 페이더라는 이름으로 활동하고 있다. 친구들은 나를 제임스라고 부른다. 조선족 출신인 나는 2011년 대구시 가창면에 있는 가창창작스튜디오 입주작가로 활동하기 위해 한국에 간 적 있다. 청소년기 때부터 로스앤젤레스에서 생활했고, 4년 전 베를린으로 옮겨와 살고 있다. 패서디나 아트센터에서 일러스트레이션을 전공했지만, 전자음악에 빠져 뮤직비디오, 애니메이션 쪽에 관심이 생긴 나는 2002년 졸업 후 작은 클럽이나 행사장에서 브이제잉을 시작했다. 나는 독학으로 배운 맥스/Msp/ 지터 (음향과 영상 실시간 제어 프로그램), 프로세싱, 터치디자이너, 그리고 유니티를 다루는 프로그래머이자 소프트웨어 개발자이기도 하다. 5년 전부터 본격적으로 무대디자인을 시작했다.
@@ -63,7 +63,7 @@ Interviewer/Editor:Kim Sowon
 <em>김소원:</em>VJ겸무대디자이너로서어떤무대의영향을많이받는가?
 <em>VJ페이더:</em>요즘대단한무대디자인이꽤많다.세계곳곳의여러음악축제가 벨기에에서 열리는 투모로랜드를 본보기 삼는다. 투모로랜드는 정교하고 웅장한 공연을 펼치는 행사로 유명하다. 2013년 울트라 음악 축제의 중심 무대 디자인은 상징적이었다. 피라미드 형태에 최신 LED 조명 기술이 들어간 대형 U 로고가 박혔는데,이때사용한U로고가그후에열린다른나라의울트라공연에서도 계속 등장한다. 나는 네덜란드에서 열리는 Q-댄스 공연을 무척 좋아하는데 네덜란드인은 파티를 좀 아는 사람들 같다! 그들은 가끔 화난 고릴라나 신비한 동물 같은 강렬한 주제를 선정해서 공연을 기획한다. 하드 스타일 장르를 선호하지않는내가봐도공연은환상그자체다.추가로소개하는영국 아카디아 축제의‘거미’는 철저히 주문 제작됐는데 DJ 부스를 매달고, 입체 음향 시스템까지 완비한 무대다. 불꽃과 조명, CO2 분사 장비를 작동하고 공연을 시작하면 효과는 더욱 커진다. 직접 제작한 무대를 관람한 관객이 어디서도 본 적 없는 경험을 하고 돌아간다는 사실이 얼마나 멋진지 보여주는 대표 사례다.
 
-<em><a href="http://www.vjfader.com/magazine-interview-of-vj-faders-stage-design-work/photo-11-09-17-12-27-48/" rel="attachment wp-att-5241"><img class="alignnone size-medium wp-image-5241" src="http://www.vjfader.com/wordpress/wp-content/uploads/2017/09/Photo-11.09.17-12-27-48-800x600.jpg" alt="" width="800" height="600" /></a></em>
+{{< figure src="/img/uploads/Photo-11.09.17-11-33-17-800x600.jpg" title="BOB Magazine Interview" >}}
 
 <em>김소원 :</em> 디자인 과정에서 무엇이 중요하다고 생각하는가?
 <em>VJ페이더:</em>나는자신을음악전문건축가라고생각한다.무대는자고로끝난 뒤에도 여운을 오래 남겨야 하기에 건축적 측면에서 봤을 때 중점적으로 생각하는 두 가지 중 첫째는 물리학 법칙이고 둘째는 예산이다. 무대 디자인은 세워지지 않으면 쓸모가 없다. 주최자, 협력업체와 모여 세세하게 무대를 계획 하는데, 이때 복잡하게 얽혀있는 모든 부분이 서로 맞물려 독창적인 무대가 나와야 한다. 같이 일하는 팀 없이는 지원군도 없다. 조명은 어느 무대에서나 중요하다. 대부분은 조명 회사나 조명 디자이너가 무대를 디자인하지만, 나는 영상과 브이제잉 전문이어서 영상에 먼저 초점을 맞추고, 조명은 그다음이다. 라이브 무대에서 LED 화면이 일반적이지 않던 시절에 사용한 영사기는 무대 조명보다 밝지 않아서 묻히지만, 요즘 나오는 LED 화면을 사용하면 영상물을 제대로전달할수있고밝기성능이좋아서조명효과도낼수있다.
@@ -80,4 +80,4 @@ Interviewer/Editor:Kim Sowon
 <em>김소원 :</em> 같이 작업하고 싶은 예술가나 참여하고 싶은 무대가 있는가?
 <em>VJ 페이더 :</em> 교황이 없었으면 미켈란젤로도 없었다. 잘 맞는 의뢰인과 함께 작업 해야만 한계에 끊임없이 도전할 수 있고, 상상력을 자극하거나 질문을 던지게 하는 무대를 만들 수 있다. 콘서트 투어와 라이브 공연에 참여해서 개념부터 무대, 영상, 조명 디자인까지 모두 내 손으로 기획하고 싶다. 결국, 관객을 위한 무대다. 일상에서 벗어나 무언가를 느끼러 온 관중 속 팬에게 보답하고 싶다.
 
-<a href="http://www.vjfader.com/PDF/[bob158]VJ%20Fader.pdf">Click here to download this interview PDF document.</a>
+<a href="/download/[bob158]VJ Fader-interview.pdf">Click here to view this full interview PDF document.</a>
