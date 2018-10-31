@@ -19,7 +19,7 @@ keywords:
   - music festival
 autoThumbnailImage: true
 thumbnailImagePosition: left
-coverImage: /images/uploads/cover-post.jpg
+coverImage: /img/uploads/photo-11.09.17-11-16-41-small-600x800.jpg
 ---
 <a href="http://www.vjfader.com/magazine-interview-of-vj-faders-stage-design-work/photo-11-09-17-11-16-41-small/" rel="attachment wp-att-5230"><img class="alignnone size-medium wp-image-5230" src="http://www.vjfader.com/wordpress/wp-content/uploads/2017/09/Photo-11.09.17-11-16-41-small-800x1067.jpg" alt="bob magazine cover" width="800" height="1067" /></a>
 
