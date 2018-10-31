@@ -26,19 +26,22 @@
           </ul>
         </div>
       </div>
+
       <div class="col-md-6">
         <div class="testimonial-carousel">
           <div id="testimonial-slider" class="owl-carousel">
             {{ range .Site.Data.testimonial.people }}
-            <div>
-                <!-- <img src="img/cotation.png" alt="IMG"> -->
-                <img src ="{{ $.Site.BaseURL }}{{ .image }}" alt = "Bob Magazine Interview">
-                <p>"{{ .text }}"</p>
-                <div class="user">
-                  <img src="img/interview/BOB-Mag-cover.png" alt="B.O.B. Magazine">
-                  <p><span>{{ .name }}</span> {{ .role }}</p>
+              <a href="/blog">
+                <div>
+                    <!-- <img src="img/cotation.png" alt="IMG"> -->
+                    <img src ="{{ $.Site.BaseURL }}{{ .image }}" alt = "Bob Magazine Interview">
+                    <p>"{{ .text }}"</p>
+                    <div class="user">
+                      <img src="img/interview/BOB-Mag-cover.png" alt="B.O.B. Magazine">
+                      <p><span>{{ .name }}</span> {{ .role }}</p>
+                    </div>
                 </div>
-            </div>
+              </a>
             {{ end }}
           </div>
         </div>
