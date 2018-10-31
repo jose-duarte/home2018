@@ -18,7 +18,7 @@ const NOT_FOUND_CACHE_FILES = [
     '/style.css',
     '/script.js',
     '/404.html',
-];
+];<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 const OFFLINE_PAGE = '/offline/index.html';
 const NOT_FOUND_PAGE = '/404.html';
@@ -233,7 +233,7 @@ self.addEventListener(
                                             let age = parseInt((new Date().getTime() - date.getTime()) / 1000);
                                             let ttl = getTTL(event.request.url);
 
-                                            if (ttl &amp;&amp; age > ttl) {
+                                            if (ttl &amp;&amp age > ttl) {
 
                                                 return new Promise(
                                                     (resolve) => {
