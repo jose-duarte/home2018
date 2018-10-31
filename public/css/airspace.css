@@ -211,8 +211,8 @@ header .navbar-brand img{
 }
 #global-header .block h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 45;
   font-weight: 300;
+  font-size: 45px;
   letter-spacing: 6px;
   padding-bottom: 15px;
   margin-top: 0;
@@ -382,6 +382,10 @@ header .navbar-brand img{
   line-height: 33px;
   margin: 0;
   font-size: 30px;
+  color: #DEEDED;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 #call-to-action p {
   font-size: 14px;
@@ -438,11 +442,10 @@ header .navbar-brand img{
 }
 #feature h2 {
   color: #E0E3F7;
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  font-size: 28px;
+  margin-bottom: 30px;
 }
 #feature p {
   color: #fff;/*8d8f92*/
@@ -478,10 +481,10 @@ header .navbar-brand img{
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  /* padding: 100px 200px; */
-  padding-top: 150px;
-  padding-bottom: 200px;
-  margin-bottom: 100px;
+  padding: 100px 0px;
+  /* padding-top: 150px;
+  padding-bottom: 150px; */
+  margin-bottom: 50px;
 
 }
 
@@ -494,16 +497,16 @@ header .navbar-brand img{
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #433350, #312365);
+  background: linear-gradient(to bottom, #433350, #312365);
   opacity: 0.5;
 }
 #workfeature h2 {
-  color: #E0E3F7;
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  color: #E0E3F7;
+  /* font-size: 28px; */
+  /* font-weight: 600; */
+  margin-bottom: 30px;
 }
 #workfeature p {
   color: #fff;/*8d8f92*/
@@ -585,15 +588,15 @@ header .navbar-brand img{
   padding-bottom: 0;
   font-size: 12px;
   line-height: 20px;
-  color: #353241;
+  color: #DEEDED;
 }
 #testimonial .testimonial-carousel .user p span {
   display: block;
-  color: #353241;
+  color: #DEEDED;
   font-weight: 600;
 }
 #testimonial .testimonial-carousel .owl-carousel .owl-pagination div {
-  border: 1px solid #1D1D1D;
+  border: 1px solid #555;
   border-radius: 500px;
   display: inline-block;
   height: 10px;
@@ -601,7 +604,7 @@ header .navbar-brand img{
   width: 10px;
 }
 #testimonial .testimonial-carousel .owl-carousel .owl-pagination div.active {
-  background: #5C5C5C;
+  background: #777;
   font-size: 30px;
   display: inline-block;
   border: 0px;
@@ -613,13 +616,15 @@ header .navbar-brand img{
   padding-top: 30px;
   padding-bottom: 0px;
 }
+#clients-logo-section h2{
+  color: #DEEDED;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
 
 #clients-logo-section .row{
   text-align: center;
     text-transform: uppercase;
-  color: #DEEDED;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
 }
 #clients-logo-section p{
   text-align: center;

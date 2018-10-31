@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://new-homepage-2018.netlify.com/blog/-interview-b-o-b-international-magazine-of-space-design-stage-design/</loc>
+    <lastmod>2018-10-31T10:41:38+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://new-homepage-2018.netlify.com/blog/testblog1/</loc>
     <lastmod>2018-10-16T22:12:32+02:00</lastmod>
   </url>
@@ -48,7 +53,7 @@
   
   <url>
     <loc>https://new-homepage-2018.netlify.com/blog/</loc>
-    <lastmod>2018-10-16T22:12:32+02:00</lastmod>
+    <lastmod>2018-10-31T10:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -62,8 +67,20 @@
   </url>
   
   <url>
+    <loc>https://new-homepage-2018.netlify.com/tags/edm/</loc>
+    <lastmod>2018-10-31T10:41:38+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://new-homepage-2018.netlify.com/</loc>
-    <lastmod>2018-10-16T22:12:32+02:00</lastmod>
+    <lastmod>2018-10-31T10:41:38+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://new-homepage-2018.netlify.com/tags/festival/</loc>
+    <lastmod>2018-10-31T10:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -86,6 +103,18 @@
   </url>
   
   <url>
+    <loc>https://new-homepage-2018.netlify.com/tags/interview/</loc>
+    <lastmod>2018-10-31T10:41:38+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://new-homepage-2018.netlify.com/categories/interview/</loc>
+    <lastmod>2018-10-31T10:41:38+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://new-homepage-2018.netlify.com/tags/ipsum/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
@@ -98,7 +127,15 @@
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/work/</loc>
+    <loc>https://new-homepage-2018.netlify.com/tags/magazine/</loc>
+    <lastmod>2018-10-31T10:41:38+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://new-homepage-2018.netlify.com/tags/music-festival/</loc>
+    <lastmod>2018-10-31T10:41:38+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -124,6 +161,16 @@
   </url>
   
   <url>
+    <loc>https://new-homepage-2018.netlify.com/tags/stage-design/</loc>
+    <lastmod>2018-10-31T10:41:38+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://new-homepage-2018.netlify.com/work/</loc>
+  </url>
+  
+  <url>
     <loc>https://new-homepage-2018.netlify.com/categories/starting/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
     <priority>0</priority>
@@ -131,7 +178,7 @@
   
   <url>
     <loc>https://new-homepage-2018.netlify.com/tags/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+    <lastmod>2018-10-31T10:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
