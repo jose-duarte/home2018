@@ -233,7 +233,7 @@ self.addEventListener(
                                             let age = parseInt((new Date().getTime() - date.getTime()) / 1000);
                                             let ttl = getTTL(event.request.url);
 
-                                            if (ttl &amp&amp; age > ttl) {
+                                            if (ttl && age > ttl) {
 
                                                 return new Promise(
                                                     (resolve) => {
