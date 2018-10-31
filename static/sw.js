@@ -18,7 +18,7 @@ const NOT_FOUND_CACHE_FILES = [
     '/style.css',
     '/script.js',
     '/404.html',
-];<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+];
 
 const OFFLINE_PAGE = '/offline/index.html';
 const NOT_FOUND_PAGE = '/404.html';
