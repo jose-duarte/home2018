@@ -1,4 +1,5 @@
-const CACHE_VERSION = 1;
+// const cacheName = 'v1::static';
+// const CACHE_VERSION = 1;
 
 const BASE_CACHE_FILES = [
     '/style.css',
