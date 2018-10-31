@@ -1,5 +1,5 @@
 ---
-title: '[Interview] B.O.B. (International Magazine of Space Design) - Stage Design'
+title: '[Interview] B.O.B. International Magazine of Space Design'
 date: '2018-10-31T10:41:38+01:00'
 categories:
   - interview
