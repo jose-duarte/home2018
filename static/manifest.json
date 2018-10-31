@@ -27,12 +27,12 @@
       "type": "image/png",
       "sizes": "270x270"
     },
-  ]
-  
+  ],
+
   "start_url": "/index.html",
   "display": "standalone",
   "orientation" : "portrait",
   "background_color": "#232633",
   "scope": "/",
-  "theme_color": "#232633"
+  "theme_color": "#232633",
 }
