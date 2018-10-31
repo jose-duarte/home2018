@@ -27,7 +27,8 @@
       "type": "image/png",
       "sizes": "270x270"
     },
-  ],
+  ]
+  
   "start_url": "/index.html",
   "display": "standalone",
   "orientation" : "portrait",
