@@ -20,7 +20,7 @@ laxHtmlBlocks = true
     url = "/work"
   [[menu.header]]
     weight = 3
-    name = "Blog"
+    name = "News"
     url = "/blog"
   # [[menu.header]]
   #   weight = 4
@@ -45,8 +45,8 @@ laxHtmlBlocks = true
     url = "#"
   [[menu.footer]]
     weight = 4
-    name = "Blog"
-    url = "#"
+    name = "News"
+    url = "/blog"
 
 # The site's parameters
 [params]
