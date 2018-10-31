@@ -18,7 +18,7 @@ keywords:
   - festival
   - music festival
 autoThumbnailImage: true
-thumbnailImagePosition: top
+thumbnailImagePosition: left
 coverImage: /img/uploads/photo-11.09.17-11-16-41-small-600x800.jpg
 ---
 <a href="http://www.vjfader.com/PDF/[bob158]VJ%20Fader.pdf">Click here to download this interview PDF document.</a>
