@@ -285,7 +285,7 @@ self.addEventListener(
                                                 (response) => {
 
                                                     if(response.status < 400) {
-                                                        if (~SUPPORTED_METHODS.indexOf(event.request.method) &amp;&amp; !isBlacklisted(event.request.url)) {
+                                                        if (~SUPPORTED_METHODS.indexOf(event.request.method) && !isBlacklisted(event.request.url)) {
                                                             cache.put(event.request, response.clone());
                                                         }
                                                         return response;
