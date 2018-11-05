@@ -10,7 +10,7 @@ laxHtmlBlocks = true
 
 googleAnalytics = "UA-123-45"
 description = "Fader's Portfolio Homepage"
-thumbnail = "img/Fader_profile02_700.jpg"
+
 
 [menu]
 
@@ -62,6 +62,7 @@ thumbnail = "img/Fader_profile02_700.jpg"
   dateFormat = "6 January 2016"
 
   # home = "Fader Home"
+  thumbnail = "img/Fader_profile02_700.jpg"
 
   [params.slider]
     enable = true

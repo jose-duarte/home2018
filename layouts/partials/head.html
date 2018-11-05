@@ -12,9 +12,9 @@
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory
      or place appropriate <link .../> etc in favicon.html partial -->
 {{ partial "favicon.html" . }}
-{{ partial "opengraph.html" . }}
-<title>{{ .Title }}</title>
 
+<title>{{ .Title }}</title>
+{{ partial "opengraph.html" . }}
 {{ .Hugo.Generator }}
 
 <!-- CSS -->
