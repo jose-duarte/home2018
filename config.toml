@@ -89,7 +89,7 @@ laxHtmlBlocks = true
   [params.workfeature]
     enable = true
     title = "A strong concept is the key!"
-    content = "I great stage design begins with a strong concept. This is the key to create an identity to a festival or an event. A central theme that encapsulates the overall feeling and message to the audience.<br><br>Click on the button below to view Fader's latest stage design portfolio PDF to see samples of his latest projects.<br><br>"
+    content = "Great stage designs begin with a strong concept. This is the key to creating a strong identity for festival or an event. A central theme that encapsulates the overall feeling and message to the audience wins.<br><br>Click on the button below to view Fader's latest stage design portfolio PDF to see samples of his latest projects.<br><br>"
   [params.workfeature.button]
       caption = "View Fader's Portfolio PDF"
       url = "/download/VJFader-StageDesign-Portfolio-2018v1.pdf"
