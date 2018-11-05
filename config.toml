@@ -10,7 +10,7 @@ laxHtmlBlocks = true
 
 googleAnalytics = "UA-123-45"
 description = "Fader's Portfolio Homepage"
-images = ["img/Fader_profile02_700.jpg"]
+thumbnail = "img/Fader_profile02_700.jpg"
 
 [menu]
 
