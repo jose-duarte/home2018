@@ -332,12 +332,13 @@ header .navbar-brand img{
 }
 #service .service-item {
   padding-bottom: 30px;
-
 }
+
 #service .service-item i {
   font-size: 60px;
   color: #999;#4A4656
 }
+
 #service .service-item h4 {
   padding-top: 20px;
   margin: 0;
@@ -360,7 +361,7 @@ header .navbar-brand img{
   background: url("../img/1359007-bigthumbnail.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 70px 0px;
+  padding: 120px 0px;
   position: relative;
   text-align: center;
   color: #fff;
@@ -1050,13 +1051,13 @@ header .navbar-brand img{
 /* Blog */
 
 .post {
-  background-color: #888;
+  background-color: #CDD6D5;
 }
 .blog {
-  background-color: #888;
+  background-color: #CDD6D5;
 }
 .center-text {
-  background-color: #888;
+  background-color: #CDD6D5;
 }
 .blog-post{
   margin-bottom: 50px;

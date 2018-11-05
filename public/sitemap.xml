@@ -3,188 +3,216 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/blog/-interview-b-o-b-international-magazine-of-space-design-stage-design/</loc>
+    <loc>/blog/-workshop-unity-3d-for-artists/</loc>
+    <lastmod>2018-10-31T16:41:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/-interview-b-o-b-international-magazine-of-space-design-stage-design/</loc>
     <lastmod>2018-10-31T10:41:38+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/blog/testblog1/</loc>
-    <lastmod>2018-10-16T22:12:32+02:00</lastmod>
+    <loc>/blog/-review-roland-v-1hd-hardware-video-mixer/</loc>
+    <lastmod>2018-01-16T17:56:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/404/</loc>
+    <loc>/404/</loc>
     <lastmod>2016-10-16T19:28:41+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/offline/</loc>
+    <loc>/offline/</loc>
     <lastmod>2016-10-16T19:28:41+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/blog/migrate-from-jekyll/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <loc>/about/</loc>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/blog/linked-post/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>/tags/audio-visual/</loc>
+    <lastmod>2018-10-31T16:41:38+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/blog/go-is-for-lovers/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+    <loc>/blog/</loc>
+    <lastmod>2018-10-31T16:41:38+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/blog/hugo-is-for-lovers/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+    <loc>/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/blog/creating-a-new-theme/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+    <loc>/contact/</loc>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://new-homepage-2018.netlify.com/blog/</loc>
+    <loc>/tags/edm/</loc>
     <lastmod>2018-10-31T10:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/categories/</loc>
+    <loc>/</loc>
+    <lastmod>2018-10-31T16:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://new-homepage-2018.netlify.com/tags/edm/</loc>
+    <loc>/tags/festival/</loc>
     <lastmod>2018-10-31T10:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/</loc>
+    <loc>/tags/game-engine/</loc>
+    <lastmod>2018-10-31T16:41:38+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/generative-art/</loc>
+    <lastmod>2018-10-31T16:41:38+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hardware-mixer/</loc>
+    <lastmod>2018-01-16T17:56:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hardware-review/</loc>
+    <lastmod>2018-01-16T17:56:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/interactive/</loc>
+    <lastmod>2018-10-31T16:41:38+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/interview/</loc>
     <lastmod>2018-10-31T10:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/tags/festival/</loc>
+    <loc>/categories/interview/</loc>
     <lastmod>2018-10-31T10:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/tags/go/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+    <loc>/tags/learning/</loc>
+    <lastmod>2018-10-31T16:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/tags/golang/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://new-homepage-2018.netlify.com/tags/hugo/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://new-homepage-2018.netlify.com/tags/interview/</loc>
+    <loc>/tags/magazine/</loc>
     <lastmod>2018-10-31T10:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/categories/interview/</loc>
+    <loc>/tags/music-festival/</loc>
     <lastmod>2018-10-31T10:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/tags/ipsum/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <loc>/tags/programming/</loc>
+    <lastmod>2018-10-31T16:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/categories/lorem/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <loc>/categories/review/</loc>
+    <lastmod>2018-01-16T17:56:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/tags/magazine/</loc>
+    <loc>/service/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/stage-design/</loc>
     <lastmod>2018-10-31T10:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/tags/music-festival/</loc>
-    <lastmod>2018-10-31T10:41:38+01:00</lastmod>
+    <loc>/work/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2018-10-31T16:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/tags/programming/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>/tags/tutorial/</loc>
+    <lastmod>2018-10-31T16:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/categories/programming/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>/tags/unity/</loc>
+    <lastmod>2018-10-31T16:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/categories/pseudo/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+    <loc>/tags/unity-3d/</loc>
+    <lastmod>2018-10-31T16:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/service/</loc>
-  </url>
-  
-  <url>
-    <loc>https://new-homepage-2018.netlify.com/tags/stage-design/</loc>
-    <lastmod>2018-10-31T10:41:38+01:00</lastmod>
+    <loc>/tags/video-blog/</loc>
+    <lastmod>2018-01-16T17:56:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/work/</loc>
-  </url>
-  
-  <url>
-    <loc>https://new-homepage-2018.netlify.com/categories/starting/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+    <loc>/tags/video-mixer/</loc>
+    <lastmod>2018-01-16T17:56:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/tags/</loc>
-    <lastmod>2018-10-31T10:41:38+01:00</lastmod>
+    <loc>/tags/video-mixing/</loc>
+    <lastmod>2018-01-16T17:56:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://new-homepage-2018.netlify.com/tags/theme/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>/tags/vj-hardware/</loc>
+    <lastmod>2018-01-16T17:56:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vjing/</loc>
+    <lastmod>2018-01-16T17:56:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/workshop/</loc>
+    <lastmod>2018-10-31T16:41:38+01:00</lastmod>
     <priority>0</priority>
   </url>
   

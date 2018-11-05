@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Review on Fader Homepage 2018</title>
+    <link>/categories/review/</link>
+    <description>Recent content in Review on Fader Homepage 2018</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jan 2018 17:56:00 +0100</lastBuildDate>
+    
+	<atom:link href="/categories/review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Review] ROLAND V-1HD Hardware Video Mixer</title>
+      <link>/blog/-review-roland-v-1hd-hardware-video-mixer/</link>
+      <pubDate>Tue, 16 Jan 2018 17:56:00 +0100</pubDate>
+      
+      <guid>/blog/-review-roland-v-1hd-hardware-video-mixer/</guid>
+      <description>Amazing Compact HD Video Mixer for VJs 2017 is almost over, it is fare to say our VJ industry is pretty small compared to, for example the DJ industry. This means there aren&amp;rsquo;t a lot of dedicated hardware products and controllers specifically designed for us VJs, with the exception of Roland V-1HD video switcher mixer. I have owned the V-1HD since it was released Winter of 2015 (about 2 years ago).</description>
+    </item>
+    
+  </channel>
+</rss>

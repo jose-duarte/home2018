@@ -1,6 +1,6 @@
 {
-  "short_name": "Homepage",
-  "name": "Fader Portfolio Homepage",
+  "short_name": "Fader",
+  "name": "Fader Homepage",
   "icons": [
     {
       "src": "/img/appicons/fader-appicon-32.png",
@@ -26,8 +26,9 @@
       "src": "/img/appicons/fader-appicon-270.png",
       "type": "image/png",
       "sizes": "270x270"
-    },
+    }
   ],
+
   "start_url": "/index.html",
   "display": "standalone",
   "orientation" : "portrait",
