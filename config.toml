@@ -8,7 +8,6 @@ buildFuture = false
 canonifyURLs = true
 laxHtmlBlocks = true
 
-googleAnalytics = "UA-123-45"
 description = "Fader's Portfolio Homepage"
 
 
@@ -62,7 +61,6 @@ description = "Fader's Portfolio Homepage"
   dateFormat = "6 January 2016"
 
   # home = "Fader Home"
-  thumbnail = "img/Fader_profile02_700.jpg"
 
   [params.slider]
     enable = true
