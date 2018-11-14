@@ -6,7 +6,7 @@ paragraph: >
 numbers:
   - icon: ion-ios-chatboxes-outline
     counter: 4
-    text: Spoken Language
+    text: Spoken Languages
   - icon: ion-ios-photos-outline
     counter: 100
     text: Over a hundred Shows

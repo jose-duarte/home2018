@@ -84,7 +84,7 @@ description = "Fader's Portfolio Homepage"
   [params.feature]
     enable = true
     title = "Every show delivers a visual impact to the audience"
-    content = "The stage can be considered as a fine-art sculpture in the hands of an experienced the designer, Fader shapes his vision according to the type of event and audience. The stage can be modern or classic. Regardless of outdoor or indoor, the LED screens, projectors, lasers and lights become the building blocks to a masterpiece."
+    content = "The stage can be considered as a fine-art sculpture in the hands of an experienced designer, Fader shapes his vision according to the type of event and audience. The stage can be modern or classic. Regardless of outdoor or indoor, the LED screens, projectors, lasers and lights become the building blocks to a masterpiece."
   [params.feature.button]
       caption = "View More"
       url = "/work"
